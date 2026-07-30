@@ -1,0 +1,26 @@
+// Add these measures to a dedicated Measures table.
+
+Net Revenue EUR :=
+SUM ( RevenueFacts[net_eur] )
+
+Gross Revenue EUR :=
+SUM ( RevenueFacts[gross_eur] )
+
+Margin EUR :=
+SUM ( RevenueFacts[margin_eur] )
+
+Margin % :=
+DIVIDE ( [Margin EUR], [Net Revenue EUR] )
+
+Data Quality Score :=
+AVERAGE ( RevenueFacts[quality_score] )
+
+Canonical Orders :=
+DISTINCTCOUNT ( RevenueFacts[order_id] )
+
+Records Requiring Review :=
+CALCULATE (
+    COUNTROWS ( RevenueFacts ),
+    RevenueFacts[quality_score] < 100
+)
+

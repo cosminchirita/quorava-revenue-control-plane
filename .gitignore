@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.inspect.ndjson
+.venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+*.log
+data/warehouse/*.json
+data/warehouse/*.csv
+data/warehouse/*.db
+!data/warehouse/.gitkeep

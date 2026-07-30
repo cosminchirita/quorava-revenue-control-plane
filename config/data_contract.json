@@ -1,0 +1,23 @@
+{
+  "contract_version": "1.0.0",
+  "dataset": "canonical_revenue_event",
+  "primary_key": ["source_type", "source_ref"],
+  "required_fields": [
+    "order_id",
+    "customer_id",
+    "transaction_date",
+    "country",
+    "currency",
+    "gross_amount",
+    "net_amount",
+    "cost_amount",
+    "status"
+  ],
+  "allowed_currencies": ["EUR", "GBP", "RON"],
+  "allowed_statuses": ["won", "settled", "pending", "refunded"],
+  "max_future_days": 1,
+  "amount_tolerance": 0.02,
+  "pii_fields": ["customer_name"],
+  "retention_days": 30
+}
+

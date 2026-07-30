@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/cosminchirita/quorava-revenue-control-plane/security/advisories/new
+    about: Report vulnerabilities privately.
+

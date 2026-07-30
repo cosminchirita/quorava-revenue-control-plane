@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-30T08:55:00Z",
+  "source": "CRM opportunity API fixture",
+  "items": [
+    {"dealId":"Q-260701","accountId":"AC-1024","accountName":"Nordic Workshop Group","closedAt":"2026-07-03","region":"Nordics","country":"SE","channel":"Direct","productFamily":"Cloud Control","currency":"EUR","grossAmount":48200,"discountAmount":2400,"netAmount":45800,"costAmount":18100,"stage":"won"},
+    {"dealId":"Q-260706","accountId":"AC-2055","accountName":"Rheinland Components","closedAt":"2026-07-08","region":"DACH","country":"DE","channel":"Partner","productFamily":"Data Assurance","currency":"EUR","grossAmount":71500,"discountAmount":7150,"netAmount":64350,"costAmount":24600,"stage":"won"},
+    {"dealId":"Q-260711","accountId":"AC-3091","accountName":"Danube Mobility","closedAt":"2026-07-12","region":"CEE","country":"RO","channel":"Direct","productFamily":"Control API","currency":"RON","grossAmount":286000,"discountAmount":14000,"netAmount":272000,"costAmount":118000,"stage":"settled"},
+    {"dealId":"Q-260718","accountId":"AC-4110","accountName":"Atlantic Retail Labs","closedAt":"2026-07-18","region":"UKI","country":"GB","channel":"Marketplace","productFamily":"Cloud Control","currency":"GBP","grossAmount":39200,"discountAmount":16200,"netAmount":23000,"costAmount":17800,"stage":"won"},
+    {"dealId":"Q-260724","accountId":"AC-5144","accountName":"Baltic Grid Systems","closedAt":"2026-07-24","region":"Nordics","country":"FI","channel":"Direct","productFamily":"Data Assurance","currency":"EUR","grossAmount":52500,"discountAmount":2500,"netAmount":50000,"costAmount":20100,"stage":"pending"},
+    {"dealId":"Q-260728","accountId":"AC-6002","accountName":"Alpine Field Services","closedAt":"2026-07-28","region":"DACH","country":"AT","channel":"Partner","productFamily":"Control API","currency":"EUR","grossAmount":118000,"discountAmount":5900,"netAmount":112100,"costAmount":43800,"stage":"won"}
+  ]
+}
+

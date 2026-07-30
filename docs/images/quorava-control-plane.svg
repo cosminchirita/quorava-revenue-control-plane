@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title description">
+  <title id="title">Quorava Revenue Control Plane</title>
+  <desc id="description">Multi-source revenue data flows through governed normalization, quality, identity resolution and explainable anomaly controls into audited analytics and Power BI outputs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071b2b"/>
+      <stop offset="1" stop-color="#0d3445"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#27d3bd"/>
+      <stop offset="1" stop-color="#66e7d5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020b12" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .eyebrow{font:600 15px Inter,Segoe UI,sans-serif;letter-spacing:2.6px;fill:#68e6d5}
+      .title{font:700 48px Inter,Segoe UI,sans-serif;fill:#f7fbfc}
+      .subtitle{font:400 20px Inter,Segoe UI,sans-serif;fill:#aac0ca}
+      .card-title{font:700 19px Inter,Segoe UI,sans-serif;fill:#f4fafb}
+      .card-copy{font:400 15px Inter,Segoe UI,sans-serif;fill:#9fb5bf}
+      .stage{font:700 16px Inter,Segoe UI,sans-serif;fill:#062733}
+      .metric{font:700 27px Inter,Segoe UI,sans-serif;fill:#f7fbfc}
+      .metric-label{font:500 13px Inter,Segoe UI,sans-serif;fill:#9fb5bf;letter-spacing:.7px}
+    </style>
+  </defs>
+  <rect width="1400" height="760" rx="28" fill="url(#bg)"/>
+  <circle cx="1225" cy="70" r="230" fill="#1b7f84" opacity="0.12"/>
+  <circle cx="95" cy="700" r="260" fill="#16b9aa" opacity="0.08"/>
+
+  <g transform="translate(72 62)">
+    <rect width="54" height="54" rx="15" fill="url(#accent)"/>
+    <path d="M16 18h22v5H21v8h15v5H21v8h-5z" fill="#07303a"/>
+    <text x="74" y="18" class="eyebrow">QUORAVA</text>
+    <text x="74" y="58" class="title">Revenue Control Plane</text>
+    <text x="74" y="91" class="subtitle">Auditable multi-source revenue reliability and anomaly intelligence</text>
+  </g>
+
+  <g transform="translate(72 210)" filter="url(#shadow)">
+    <rect width="280" height="360" rx="22" fill="#0d2b3b" stroke="#245063"/>
+    <text x="26" y="42" class="eyebrow">INGEST</text>
+    <g transform="translate(24 70)">
+      <rect width="232" height="72" rx="14" fill="#123849"/>
+      <rect x="16" y="16" width="40" height="40" rx="10" fill="#1e756f"/>
+      <text x="70" y="30" class="card-title">Excel workbooks</text>
+      <text x="70" y="52" class="card-copy">Different schemas and dates</text>
+    </g>
+    <g transform="translate(24 158)">
+      <rect width="232" height="72" rx="14" fill="#123849"/>
+      <rect x="16" y="16" width="40" height="40" rx="10" fill="#2c708a"/>
+      <text x="70" y="30" class="card-title">CRM JSON API</text>
+      <text x="70" y="52" class="card-copy">Controlled HTTP ingestion</text>
+    </g>
+    <g transform="translate(24 246)">
+      <rect width="232" height="72" rx="14" fill="#123849"/>
+      <rect x="16" y="16" width="40" height="40" rx="10" fill="#6455a6"/>
+      <text x="70" y="30" class="card-title">ERP SQL ledger</text>
+      <text x="70" y="52" class="card-copy">Read-only governed query</text>
+    </g>
+  </g>
+
+  <path d="M376 390h48" stroke="#4bd9c7" stroke-width="4" stroke-linecap="round"/>
+  <path d="m416 382 12 8-12 8" fill="none" stroke="#4bd9c7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(448 210)" filter="url(#shadow)">
+    <rect width="504" height="360" rx="22" fill="#f4f9fa"/>
+    <text x="28" y="42" class="eyebrow" fill="#0b857e">CONTROL PLANE</text>
+    <g transform="translate(28 72)">
+      <rect width="448" height="50" rx="12" fill="#dff7f2"/>
+      <text x="22" y="32" class="stage">01  Canonical mapping &amp; FX normalization</text>
+    </g>
+    <g transform="translate(28 136)">
+      <rect width="448" height="50" rx="12" fill="#d9f2f4"/>
+      <text x="22" y="32" class="stage">02  Versioned data-quality contracts</text>
+    </g>
+    <g transform="translate(28 200)">
+      <rect width="448" height="50" rx="12" fill="#d3ecef"/>
+      <text x="22" y="32" class="stage">03  Deterministic identity resolution</text>
+    </g>
+    <g transform="translate(28 264)">
+      <rect width="448" height="50" rx="12" fill="#cde7eb"/>
+      <text x="22" y="32" class="stage">04  Explainable anomaly scoring</text>
+    </g>
+  </g>
+
+  <path d="M976 390h48" stroke="#4bd9c7" stroke-width="4" stroke-linecap="round"/>
+  <path d="m1016 382 12 8-12 8" fill="none" stroke="#4bd9c7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(1048 210)" filter="url(#shadow)">
+    <rect width="280" height="360" rx="22" fill="#0d2b3b" stroke="#245063"/>
+    <text x="26" y="42" class="eyebrow">DECIDE</text>
+    <g transform="translate(24 70)">
+      <rect width="232" height="72" rx="14" fill="#123849"/>
+      <text x="20" y="30" class="card-title">Control-plane UI</text>
+      <text x="20" y="52" class="card-copy">Evidence-first review queues</text>
+    </g>
+    <g transform="translate(24 158)">
+      <rect width="232" height="72" rx="14" fill="#123849"/>
+      <text x="20" y="30" class="card-title">Power BI semantic kit</text>
+      <text x="20" y="52" class="card-copy">Governed export and measures</text>
+    </g>
+    <g transform="translate(24 246)">
+      <rect width="232" height="72" rx="14" fill="#123849"/>
+      <text x="20" y="30" class="card-title">Tamper-evident audit</text>
+      <text x="20" y="52" class="card-copy">Hash-chained operational events</text>
+    </g>
+  </g>
+
+  <g transform="translate(72 624)">
+    <line x1="0" y1="0" x2="1256" y2="0" stroke="#285064"/>
+    <g transform="translate(0 30)"><text class="metric">27</text><text y="28" class="metric-label">RAW EVENTS</text></g>
+    <g transform="translate(270 30)"><text class="metric">22</text><text y="28" class="metric-label">CANONICAL RECORDS</text></g>
+    <g transform="translate(590 30)"><text class="metric">5</text><text y="28" class="metric-label">DUPLICATES REMOVED</text></g>
+    <g transform="translate(885 30)"><text class="metric">98.6%</text><text y="28" class="metric-label">DATA TRUST SCORE</text></g>
+    <g transform="translate(1125 30)"><text class="metric">4</text><text y="28" class="metric-label">REVIEW FINDINGS</text></g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "Quorava Control Plane",
+  "dataColors": ["#0F8B83", "#35C7C0", "#102A43", "#D58C18", "#CE4B50", "#7B91A5"],
+  "background": "#F4F7F9",
+  "foreground": "#102A43",
+  "tableAccent": "#0F8B83"
+}
+

@@ -1,0 +1,17 @@
+{
+  "order_id": ["order_id", "Order No", "Transaction ID", "dealId"],
+  "customer_id": ["customer_id", "Account ID", "Client Ref", "accountId"],
+  "customer_name": ["customer_name", "Customer", "Customer Label", "accountName"],
+  "transaction_date": ["transaction_date", "Posting Date", "Date", "closedAt"],
+  "region": ["region", "Market", "Territory", "region"],
+  "country": ["country", "Country Code", "ISO Country", "country"],
+  "channel": ["channel", "Sales Channel", "Route", "channel"],
+  "product_family": ["product_family", "Product Line", "Category", "productFamily"],
+  "currency": ["currency", "Currency", "CCY", "currency"],
+  "gross_amount": ["gross_amount", "Gross Revenue", "Total", "grossAmount"],
+  "discount_amount": ["discount_amount", "Discounts", "Discount Value", "discountAmount"],
+  "net_amount": ["net_amount", "Net Revenue", "Recognized Revenue", "netAmount"],
+  "cost_amount": ["cost_amount", "Cost", "COGS", "costAmount"],
+  "status": ["status", "State", "Lifecycle", "stage"]
+}
+

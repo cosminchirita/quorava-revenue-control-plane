@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quorava-revenue-control-plane"
+version = "1.0.0"
+description = "Auditable multi-source revenue data reliability and anomaly intelligence demo."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Cosmin Chirita" }]
+dependencies = ["openpyxl==3.1.5"]
+keywords = ["data-engineering", "data-quality", "fintech", "analytics", "power-bi", "anomaly-detection"]
+
+[project.scripts]
+quorava = "quorava.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

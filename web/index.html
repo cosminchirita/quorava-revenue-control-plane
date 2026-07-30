@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Quorava Revenue Control Plane — auditable multi-source revenue data reliability demo." />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Quorava Revenue Control Plane</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"><span>Q</span></div>
+        <div><strong>Quorava</strong><small>REVENUE CONTROL PLANE</small></div>
+      </div>
+
+      <div class="workspace-card">
+        <div class="workspace-icon">EU</div>
+        <div><strong>Northstar Europe</strong><span>Revenue Operations</span></div>
+        <span class="workspace-chevron">⌄</span>
+      </div>
+
+      <nav id="primaryNav">
+        <p class="nav-label">CONTROL CENTER</p>
+        <button class="nav-item active" data-view="overview"><span>⌂</span>Overview</button>
+        <button class="nav-item" data-view="sources"><span>⌁</span>Data sources <em>3</em></button>
+        <button class="nav-item" data-view="quality"><span>✓</span>Quality controls</button>
+        <button class="nav-item" data-view="anomalies"><span>◇</span>Anomaly lab <em id="navAnomalyCount">—</em></button>
+        <p class="nav-label spaced">GOVERNANCE</p>
+        <button class="nav-item" data-view="lineage"><span>⌘</span>Lineage</button>
+        <button class="nav-item" data-view="audit"><span>≋</span>Audit ledger</button>
+        <button class="nav-item" data-view="powerbi"><span>▥</span>Power BI kit</button>
+      </nav>
+
+      <div class="trust-card">
+        <div class="trust-head"><span class="status-dot"></span><strong>Trust boundary active</strong></div>
+        <p>Synthetic data · read-only demo</p>
+        <div class="trust-row"><span>Audit chain</span><b id="sidebarAudit">Verifying…</b></div>
+      </div>
+      <div class="profile">
+        <div class="avatar">DO</div>
+        <div><strong>Demo Operator</strong><span>Data Control Analyst</span></div>
+        <span>•••</span>
+      </div>
+    </aside>
+
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="environment"><span class="status-dot"></span><strong>Synthetic demo</strong><span>EU workspace</span></div>
+        <label class="global-search">
+          <span>⌕</span>
+          <input id="globalSearch" type="search" placeholder="Search order, region or product…" autocomplete="off" />
+          <kbd>⌘ K</kbd>
+        </label>
+        <div class="top-actions">
+          <a class="icon-button" href="/api/health" target="_blank" rel="noreferrer" title="API health">API</a>
+          <button class="icon-button" id="helpButton" title="Demo information">?</button>
+          <div class="avatar small">DO</div>
+        </div>
+      </header>
+
+      <section id="content" class="content" aria-live="polite">
+        <div class="loading-state"><span class="loader"></span><p>Loading control-plane snapshot…</p></div>
+      </section>
+    </main>
+
+    <div id="drawerBackdrop" class="drawer-backdrop" hidden></div>
+    <aside id="detailDrawer" class="drawer" aria-label="Record details" aria-hidden="true"></aside>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
+

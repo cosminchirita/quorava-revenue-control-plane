@@ -1,0 +1,12 @@
+{
+  "rule_version": "1.0.0",
+  "rules": [
+    {"id": "DQ-001", "name": "Required fields present", "severity": "critical"},
+    {"id": "DQ-002", "name": "Gross less discount equals net", "severity": "high"},
+    {"id": "DQ-003", "name": "Currency is supported", "severity": "high"},
+    {"id": "DQ-004", "name": "Transaction date is plausible", "severity": "medium"},
+    {"id": "DQ-005", "name": "Status is canonical", "severity": "medium"},
+    {"id": "DQ-006", "name": "Amounts are non-negative", "severity": "high"}
+  ]
+}
+

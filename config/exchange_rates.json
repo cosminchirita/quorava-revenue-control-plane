@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-07-30",
+  "base": "EUR",
+  "rates_to_eur": {
+    "EUR": 1.0,
+    "GBP": 1.18,
+    "RON": 0.201
+  },
+  "note": "Synthetic fixed rates for deterministic demo calculations; not market data."
+}
+

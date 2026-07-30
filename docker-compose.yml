@@ -1,0 +1,15 @@
+services:
+  quorava:
+    build: .
+    ports:
+      - "127.0.0.1:8787:8787"
+    environment:
+      QUORAVA_DEMO_ROLE: analyst
+      QUORAVA_MAX_REQUEST_BYTES: "1048576"
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /app/data/warehouse:size=16m,mode=0750
+    security_opt:
+      - no-new-privileges:true
+
