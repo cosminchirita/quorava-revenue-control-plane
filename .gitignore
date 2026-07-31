@@ -13,3 +13,5 @@ data/warehouse/*.json
 data/warehouse/*.csv
 data/warehouse/*.db
 !data/warehouse/.gitkeep
+
+*.egg-info/
